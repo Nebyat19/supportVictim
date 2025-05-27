@@ -3,7 +3,7 @@ import { User, Phone, Heart, Save, Eye, EyeOff } from "lucide-react";
 import Header from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
-import { completeClientProfile} from "../Redux/Slices/ClientProfileSlice";
+import { completeClientProfile} from "../Redux/Slices/clientProfileSlice";
 import { useDispatch, useSelector } from "react-redux";
 
 // Language translations for VictimProfilePage
